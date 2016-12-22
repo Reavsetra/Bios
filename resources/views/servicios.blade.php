@@ -1,8 +1,6 @@
-@extends('layouts.principal')
+@extends('layouts.arreglos')
 
 @section('contenido')
-
-
     <div id="parall-services" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="-150">
     </div>
     <!--=====================================
@@ -189,5 +187,4 @@
         </div>
       </section>
     </main>
-
 @endsection

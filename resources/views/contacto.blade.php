@@ -1,7 +1,10 @@
-@extends('layouts.principal')
+@extends('layouts.arreglos')
+@section('title', 'Contacto')
 
 @section('contenido')
-	    <main>
+
+    <div id="map"></div>
+    <main>
         <section class="row">
             <article class="columns small-12">
                 <h3>Contáctanos</h3>

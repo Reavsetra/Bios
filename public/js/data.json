@@ -1,0 +1,71 @@
+{
+    "arreglos": [{
+        "nombre": "Arreglos Navideños",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Navideños 01",
+            "precio": "$350,00",
+            "imagen": "navidenos/001.jpg"
+        },{
+            "titulo": "Navideños 02",
+            "precio": "$600,00",
+            "imagen": "navidenos/002.jpg"
+        },{
+            "titulo": "Navideños 03",
+            "precio": "$400,00",
+            "imagen": "navidenos/003.jpg"
+        },{
+            "titulo": "Navideños 04",
+            "precio": "$1,200,00",
+            "imagen": "navidenos/004.jpg"
+        },{
+            "titulo": "Navideños 05",
+            "precio": "$450,00",
+            "imagen": "navidenos/005.jpg"
+        },{
+            "titulo": "Navideños 06",
+            "precio": "$300,00",
+            "imagen": "navidenos/006.png"
+        },{
+            "titulo": "Navideños 07",
+            "precio": "$300,00",
+            "imagen": "navidenos/007.png"
+        },{
+            "titulo": "Navideños 08",
+            "precio": "$1,200,00",
+            "imagen": "navidenos/008.jpg"
+        },{
+            "titulo": "Navideños 09",
+            "precio": "$500,00",
+            "imagen": "navidenos/009.jpg"
+        },{
+            "titulo": "Navideños 010",
+            "precio": "$500,00",
+            "imagen": "navidenos/010.jpg"
+        },{
+            "titulo": "Navideños 11",
+            "precio": "$500,00",
+            "imagen": "navidenos/011.jpg"
+        }]
+    }, {
+        "nombre": "Arreglos Frutales",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Frutales 01",
+            "precio": "$1,000,00",
+            "imagen": "frutales/001.jpg"
+        },{
+            "titulo": "Frutales 02",
+            "precio": "$1,200,00",
+            "imagen": "frutales/002.jpg"
+        },{
+            "titulo": "Frutales 03",
+            "precio": "$1,200,00",
+            "imagen": "frutales/003.jpg"
+        },{
+            "titulo": "Frutales 04",
+            "precio": "$1,500,00",
+            "imagen": "frutales/004.jpg"
+        }]
+    }]
+}

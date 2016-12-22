@@ -13,6 +13,19 @@
 
 Route::get('/', 'viewsCtrl@index');
 
-Route::get('/servicios', 'viewsCtrl@servicios');
+Route::get('servicios', 'viewsCtrl@servicios');
 
-Route::get('/contacto', 'viewsCtrl@contacto');
+Route::get('contacto', 'viewsCtrl@contacto');
+
+Route::group(['prefix' => 'arreglos'], function () {
+    Route::get('{arreglo}', function ($arreglo)    {
+        $tipo = "hola";
+    	return view('arreglos.'.$arreglo);
+    });
+});
+
+Route::group(['prefix' => 'florerias'], function () {
+    Route::get('{lugar}', function ($lugar)    {
+    	return view('places.'.$lugar);
+    });
+});

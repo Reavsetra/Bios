@@ -1,0 +1,19 @@
+{
+    "arreglos": [{
+        "tipo": "Navideños",
+        "introducción": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "título": "Navideños 01",
+            "precio": "",
+            "imagen": "001.jpg"
+        }]
+    }, {
+        "tipo": "Navideños",
+        "introducción": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "título": "Navideños 01",
+            "precio": "",
+            "imagen": "001.jpg"
+        }]
+    }]
+}
