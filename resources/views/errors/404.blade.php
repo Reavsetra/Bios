@@ -1,47 +1,49 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>La página solicitada no existe.</title>
+@extends('layouts.arreglos')
+@section('title', 'Arreglos para Obsequios')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato', sans-serif;
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">404.- Pagina no encontrada.</div>
+@section('contenido')
+    <!--=== Cabecera Parallax ===-->
+    <div id="parall-obsequio" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="-250">
+    </div>
+    <!--=== Contenido Principal ===-->
+    <main>
+        <section class="row">
+            <div class="columns">
+                <h3>Error.- 404</h3>
+                <p> La página que solicitaste no existe o ha cambiado, te invitamos a revisar nuestro cátalogo para encontrar el arreglo que estabas buscando.</p>
             </div>
-        </div>
-    </body>
-</html>
+        </section>
+        <section class="row arreglos more-send">
+            <div class="columns">
+                <?php
+                    $json = file_get_contents('http://www.floreriabiosfera.com/js/data.json');
+                    $json_output = json_decode($json);
+                    $arreglo = $json_output->arreglos[0];
+                    $arrList = $arreglo->lista;
+                    echo '
+                        <article>
+                            
+                            <div class="gallery">';
+                            foreach ($arrList as $value) {
+                                echo '
+                                <div class="item">
+                                    <div class="thumbnail">
+                                        <a class="fancybox" rel="group" href="http://www.floreriabiosfera.com/img/arreglos/'.$value->imagen.'">
+                                            <img class="pic" src="http://www.floreriabiosfera.com/img/arreglos/'.$value->imagen.'" alt="Arreglos Florales" />
+                                        </a>
+                                    </div>
+                                    <h3>'.$value->titulo.'</h3>
+                                    <div class="price">
+                                        <p>
+                                            '.$value->precio.'
+                                        </p>
+                                    </div>
+                                </div>
+                                ';
+                            }
+                    echo "</div></article";
+                ?>
+            </div>
+        </section>
+    </main>
+@endsection
