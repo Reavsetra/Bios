@@ -33,6 +33,7 @@
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWY-SJ_3hztn-mEep1zYhE1_7Do89JnAk&callback=initMap">
         </script>
     @endif
+    <script src="{{ URL::asset('js/main.js') }}"></script>
     <script src="{{ URL::asset('js/arreglos.js') }}"></script>
 
 </body>

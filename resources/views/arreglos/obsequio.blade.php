@@ -12,7 +12,7 @@
                 <?php
                     $json = file_get_contents('http://www.floreriabiosfera.com/js/data.json');
                     $json_output = json_decode($json);
-                    $arreglo = $json_output->arreglos[1];
+                    $arreglo = $json_output->arreglos[0];
                     $arrList = $arreglo->lista;
                     echo '
                         <article>
@@ -28,7 +28,7 @@
                                 <div class="item">
                                     <div class="thumbnail">
                                         <a class="fancybox" rel="group" href="http://www.floreriabiosfera.com/img/arreglos/'.$value->imagen.'">
-                                        <img class="pic" src="http://www.floreriabiosfera.com/img/arreglos/'.$value->imagen.'" alt="" />
+                                            <img class="pic" src="http://www.floreriabiosfera.com/img/arreglos/'.$value->imagen.'" alt="Arreglos Florales" />
                                         </a>
                                     </div>
                                     <h3>'.$value->titulo.'</h3>

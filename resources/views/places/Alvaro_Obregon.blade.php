@@ -1,9 +1,9 @@
 @extends('layouts.arreglos')
-@section('title', 'Arreglos con Orquideas')
+@section('title', 'Florería en Álvaro Obregón')
 
 @section('contenido')
     <!--=== Cabecera Parallax ===-->
-    <div id="parall-orquideas" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="-300">
+    <div id="parall-obsequio" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="-250">
     </div>
     <!--=== Contenido Principal ===-->
     <main>
@@ -12,12 +12,12 @@
                 <?php
                     $json = file_get_contents('http://www.floreriabiosfera.com/js/data.json');
                     $json_output = json_decode($json);
-                    $arreglo = $json_output->arreglos[2];
+                    $arreglo = $json_output->arreglos[1];
                     $arrList = $arreglo->lista;
                     echo '
                         <article>
                             <h3>'.$arreglo->nombre.'</h3>
-                            <h2 class="sf-seo">Florerias en México / Florerias en Santa Fe</h2>
+                            <h2 class="sf-seo">Florería en Álvaro Obregón con Servicio Exprés</h2>
                             <p>
                                 '.$arreglo->introduccion.'
                             </p>

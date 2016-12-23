@@ -1,5 +1,501 @@
 {
     "arreglos": [{
+        "nombre": "Arreglos para Obsequios",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Obsequio 01",
+            "precio": "$,00",
+            "imagen": "obsequio/001.jpg"
+        },{
+            "titulo": "Obsequio 02",
+            "precio": "$1,500,00",
+            "imagen": "obsequio/002.jpg"
+        },{
+            "titulo": "Obsequio 03",
+            "precio": "$600,00",
+            "imagen": "obsequio/003.jpg"
+        },{
+            "titulo": "Obsequio 04",
+            "precio": "$600,00",
+            "imagen": "obsequio/004.jpg"
+        },{
+            "titulo": "Obsequio 05",
+            "precio": "$500,00",
+            "imagen": "obsequio/005.jpg"
+        },{
+            "titulo": "Obsequio 06",
+            "precio": "$500,00",
+            "imagen": "obsequio/006.jpg"
+        },{
+            "titulo": "Obsequio 07",
+            "precio": "$800,00",
+            "imagen": "obsequio/007.jpg"
+        },{
+            "titulo": "Obsequio 09",
+            "precio": "$1,800,00",
+            "imagen": "obsequio/009.jpg"
+        },{
+            "titulo": "Obsequio 10",
+            "precio": "$1,200,00",
+            "imagen": "obsequio/010.jpg"
+        },{
+            "titulo": "Obsequio 11",
+            "precio": "$1,500,00",
+            "imagen": "obsequio/011.jpg"
+        },{
+            "titulo": "Obsequio 12",
+            "precio": "$1,500,00",
+            "imagen": "obsequio/012.jpg"
+        },{
+            "titulo": "Obsequio 13",
+            "precio": "$1,200,00",
+            "imagen": "obsequio/013.png"
+        },{
+            "titulo": "Obsequio 14",
+            "precio": "$1,500,00",
+            "imagen": "obsequio/014.jpg"
+        },{
+            "titulo": "Obsequio 15",
+            "precio": "$1,200,00",
+            "imagen": "obsequio/015.png"
+        },{
+            "titulo": "Obsequio 16",
+            "precio": "$600,00",
+            "imagen": "obsequio/016.jpg"
+        }]
+    },{
+        "nombre": "Arreglos para Días Festivos",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Festivos 01",
+            "precio": "$1,000,00",
+            "imagen": "festivos/001.jpg"
+        },{
+            "titulo": "Festivos 02",
+            "precio": "$1,600,00",
+            "imagen": "festivos/002.jpg"
+        },{
+            "titulo": "Festivos 03",
+            "precio": "$1,200,00",
+            "imagen": "festivos/003.jpg"
+        },{
+            "titulo": "Festivos 04",
+            "precio": "$800,00",
+            "imagen": "festivos/004.jpg"
+        },{
+            "titulo": "Festivos 05",
+            "precio": "$1,200,00",
+            "imagen": "festivos/005.jpg"
+        },{
+            "titulo": "Festivos 06",
+            "precio": "$1,500,00",
+            "imagen": "festivos/006.jpg"
+        },{
+            "titulo": "Festivos 07",
+            "precio": "$800,00",
+            "imagen": "festivos/007.jpg"
+        },{
+            "titulo": "Festivos 08",
+            "precio": "$1,200,00",
+            "imagen": "festivos/008.jpg"
+        },{
+            "titulo": "Festivos 09",
+            "precio": "$1,600,00",
+            "imagen": "festivos/009.jpg"
+        },{
+            "titulo": "Festivos 10",
+            "precio": "$800,00",
+            "imagen": "festivos/010.jpg"
+        },{
+            "titulo": "Festivos 11",
+            "precio": "$1,000,00",
+            "imagen": "festivos/011.jpg"
+        },{
+            "titulo": "Festivos 12",
+            "precio": "$1,300,00",
+            "imagen": "festivos/012.jpg"
+        },{
+            "titulo": "Festivos 13",
+            "precio": "$700,00",
+            "imagen": "festivos/013.png"
+        },{
+            "titulo": "Festivos 14",
+            "precio": "$1,200,00",
+            "imagen": "festivos/014.jpg"
+        },{
+            "titulo": "Festivos 15",
+            "precio": "$700,00",
+            "imagen": "festivos/015.jpg"
+        },{
+            "titulo": "Festivos 16",
+            "precio": "$1,500,00",
+            "imagen": "festivos/016.jpg"
+        },{
+            "titulo": "Festivos 17",
+            "precio": "$1,000,00",
+            "imagen": "festivos/017.jpg"
+        },{
+            "titulo": "Festivos 18",
+            "precio": "$1,500,00",
+            "imagen": "festivos/018.jpg"
+        },{
+            "titulo": "Festivos 19",
+            "precio": "$500,00",
+            "imagen": "festivos/019.jpg"
+        },{
+            "titulo": "Festivos 20",
+            "precio": "$1,200,00",
+            "imagen": "festivos/020.jpg"
+        },{
+            "titulo": "Festivos 21",
+            "precio": "$600,00",
+            "imagen": "festivos/021.jpg"
+        },{
+            "titulo": "Festivos 22",
+            "precio": "$800,00",
+            "imagen": "festivos/022.jpg"
+        },{
+            "titulo": "Festivos 23",
+            "precio": "$800,00",
+            "imagen": "festivos/023.jpg"
+        },{
+            "titulo": "Festivos 24",
+            "precio": "$800,00",
+            "imagen": "festivos/024.jpg"
+        },{
+            "titulo": "Festivos 25",
+            "precio": "$800,00",
+            "imagen": "festivos/025.jpg"
+        },{
+            "titulo": "Festivos 26",
+            "precio": "$800,00",
+            "imagen": "festivos/026.jpg"
+        },{
+            "titulo": "Festivos 27",
+            "precio": "$2,800,00",
+            "imagen": "festivos/027.jpg"
+        },{
+            "titulo": "Festivos 28",
+            "precio": "$800,00",
+            "imagen": "festivos/028.jpg"
+        },{
+            "titulo": "Festivos 29",
+            "precio": "$1,000,00",
+            "imagen": "festivos/029.jpeg"
+        },{
+            "titulo": "Festivos 30",
+            "precio": "$500,00",
+            "imagen": "festivos/030.jpg"
+        },{
+            "titulo": "Festivos 31",
+            "precio": "$800,00",
+            "imagen": "festivos/031.png"
+        },{
+            "titulo": "Festivos 32",
+            "precio": "$1,500,00",
+            "imagen": "festivos/032.jpg"
+        },{
+            "titulo": "Festivos 33",
+            "precio": "$1,000,00",
+            "imagen": "festivos/033.png"
+        },{
+            "titulo": "Festivos 34",
+            "precio": "$750,00",
+            "imagen": "festivos/034.jpg"
+        },{
+            "titulo": "Festivos 35",
+            "precio": "$800,00",
+            "imagen": "festivos/035.jpg"
+        },{
+            "titulo": "Festivos 36",
+            "precio": "$900,00",
+            "imagen": "festivos/036.jpg"
+        },{
+            "titulo": "Festivos 37",
+            "precio": "$500,00",
+            "imagen": "festivos/037.jpg"
+        },{
+            "titulo": "Festivos 38",
+            "precio": "$800,00",
+            "imagen": "festivos/038.jpg"
+        },{
+            "titulo": "Festivos 39",
+            "precio": "$1,400,00",
+            "imagen": "festivos/039.jpg"
+        },{
+            "titulo": "Festivos 40",
+            "precio": "$1,000,00",
+            "imagen": "festivos/040.jpg"
+        },{
+            "titulo": "Festivos 41",
+            "precio": "$1,000,00",
+            "imagen": "festivos/041.jpg"
+        },{
+            "titulo": "Festivos 42",
+            "precio": "$1,000,00",
+            "imagen": "festivos/042.jpg"
+        },{
+            "titulo": "Festivos 43",
+            "precio": "$800,00",
+            "imagen": "festivos/043.jpg"
+        },{
+            "titulo": "Festivos 44",
+            "precio": "$800,00",
+            "imagen": "festivos/044.jpg"
+        },{
+            "titulo": "Festivos 45",
+            "precio": "$500,00",
+            "imagen": "festivos/045.jpg"
+        },{
+            "titulo": "Festivos 46",
+            "precio": "$800,00",
+            "imagen": "festivos/046.jpg"
+        },{
+            "titulo": "Festivos 47",
+            "precio": "$2,000,00",
+            "imagen": "festivos/047.jpg"
+        },{
+            "titulo": "Festivos 48",
+            "precio": "$800,00",
+            "imagen": "festivos/048.jpg"
+        },{
+            "titulo": "Festivos 49",
+            "precio": "$1,500,00",
+            "imagen": "festivos/049.jpg"
+        },{
+            "titulo": "Festivos 50",
+            "precio": "$1,800,00",
+            "imagen": "festivos/050.jpg"
+        }]
+    },{
+        "nombre": "Arreglos con Orquídeas",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Orquideas 01",
+            "precio": "$1,000,00",
+            "imagen": "orquideas/001.jpg"
+        },{
+            "titulo": "Orquideas 02",
+            "precio": "$2,400,00",
+            "imagen": "orquideas/002.png"
+        },{
+            "titulo": "Orquideas 03",
+            "precio": "$1,600,00",
+            "imagen": "orquideas/003.jpg"
+        },{
+            "titulo": "Orquideas 04",
+            "precio": "$2,400,00",
+            "imagen": "orquideas/004.png"
+        },{
+            "titulo": "Orquideas 05",
+            "precio": "$1,200,00",
+            "imagen": "orquideas/005.jpg"
+        },{
+            "titulo": "Orquideas 06",
+            "precio": "$2,400,00",
+            "imagen": "orquideas/006.png"
+        },{
+            "titulo": "Orquideas 07",
+            "precio": "$1,100,00",
+            "imagen": "orquideas/007.jpg"
+        },{
+            "titulo": "Orquideas 08",
+            "precio": "$1,200,00",
+            "imagen": "orquideas/008.png"
+        },{
+            "titulo": "Orquideas 09",
+            "precio": "$1,200,00",
+            "imagen": "orquideas/009.jpg"
+        },{
+            "titulo": "Orquideas 10",
+            "precio": "$1,200,00",
+            "imagen": "orquideas/010.jpg"
+        },{
+            "titulo": "Orquideas 11",
+            "precio": "$3,800,00",
+            "imagen": "orquideas/011.jpg"
+        },{
+            "titulo": "Orquideas 12",
+            "precio": "$3,500,00",
+            "imagen": "orquideas/012.jpg"
+        },{
+            "titulo": "Orquideas 13",
+            "precio": "$3,500,00",
+            "imagen": "orquideas/013.jpg"
+        },{
+            "titulo": "Orquideas 14",
+            "precio": "$1,100,00",
+            "imagen": "orquideas/014.png"
+        }]
+    },{
+        "nombre": "Arreglos para Eventos",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Eventos 01",
+            "precio": "$700,00",
+            "imagen": "eventos/001.jpg"
+        },{
+            "titulo": "Eventos 02",
+            "precio": "$380,00",
+            "imagen": "eventos/002.png"
+        },{
+            "titulo": "Eventos 03",
+            "precio": "$3,000,00",
+            "imagen": "eventos/003.jpg"
+        },{
+            "titulo": "Eventos 04",
+            "precio": "$800,00",
+            "imagen": "eventos/004.png"
+        },{
+            "titulo": "Eventos 05",
+            "precio": "$500,00",
+            "imagen": "eventos/005.jpg"
+        },{
+            "titulo": "Eventos 06",
+            "precio": "$",
+            "imagen": "eventos/006.png"
+        },{
+            "titulo": "Eventos 07",
+            "precio": "$700.00",
+            "imagen": "eventos/007.jpg"
+        },{
+            "titulo": "Eventos 08",
+            "precio": "$1,000,00",
+            "imagen": "eventos/008.jpg"
+        },{
+            "titulo": "Eventos 09",
+            "precio": "$600,00",
+            "imagen": "eventos/009.jpg"
+        },{
+            "titulo": "Eventos 10",
+            "precio": "$600,00",
+            "imagen": "eventos/010.jpg"
+        }]
+    },{
+        "nombre": "Arreglos Empresariales",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Empresariales 01",
+            "precio": "$500,00",
+            "imagen": "empresariales/001.jpg"
+        },{
+            "titulo": "Empresariales 02",
+            "precio": "$1,600,00",
+            "imagen": "empresariales/002.jpg"
+        },{
+            "titulo": "Empresariales 03",
+            "precio": "$800,00",
+            "imagen": "empresariales/003.jpg"
+        },{
+            "titulo": "Empresariales 04",
+            "precio": "$800,00",
+            "imagen": "empresariales/004.jpg"
+        },{
+            "titulo": "Empresariales 05",
+            "precio": "$1,000,00",
+            "imagen": "empresariales/005.jpg"
+        },{
+            "titulo": "Empresariales 06",
+            "precio": "$1,200,00",
+            "imagen": "empresariales/006.jpg"
+        },{
+            "titulo": "Empresariales 07",
+            "precio": "$800,00",
+            "imagen": "empresariales/007.jpg"
+        },{
+            "titulo": "Empresariales 08",
+            "precio": "$800,00",
+            "imagen": "empresariales/008.jpg"
+        },{
+            "titulo": "Empresariales 09",
+            "precio": "$800,00",
+            "imagen": "empresariales/009.jpg"
+        },{
+            "titulo": "Empresariales 10",
+            "precio": "$3,000,00",
+            "imagen": "empresariales/010.jpg"
+        },{
+            "titulo": "Empresariales 11",
+            "precio": "$1,000,00",
+            "imagen": "empresariales/011.jpg"
+        },{
+            "titulo": "Empresariales 12",
+            "precio": "$1,500,00",
+            "imagen": "empresariales/012.jpg"
+        },{
+            "titulo": "Empresariales 13",
+            "precio": "$2,000,00",
+            "imagen": "empresariales/013.jpg"
+        },{
+            "titulo": "Empresariales 14",
+            "precio": "$700,00",
+            "imagen": "empresariales/014.jpg"
+        }]
+    },{
+        "nombre": "Arreglos Frutales",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Frutales 01",
+            "precio": "$1,000,00",
+            "imagen": "frutales/001.jpg"
+        },{
+            "titulo": "Frutales 02",
+            "precio": "$1,200,00",
+            "imagen": "frutales/002.jpg"
+        },{
+            "titulo": "Frutales 03",
+            "precio": "$1,200,00",
+            "imagen": "frutales/003.jpg"
+        },{
+            "titulo": "Frutales 04",
+            "precio": "$1,500,00",
+            "imagen": "frutales/004.jpg"
+        }]
+    },{
+        "nombre": "Arreglos Funerários",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "Fúnebre 01",
+            "precio": "$2,500,00",
+            "imagen": "funebres/001.jpg"
+        },{
+            "titulo": "Fúnebre 02",
+            "precio": "$2,500,00",
+            "imagen": "funebres/002.jpg"
+        },{
+            "titulo": "Fúnebre 03",
+            "precio": "$1,500,00",
+            "imagen": "funebres/003.jpg"
+        },{
+            "titulo": "Fúnebre 04",
+            "precio": "$1,600,00",
+            "imagen": "funebres/004.jpg"
+        },{
+            "titulo": "Fúnebre 05",
+            "precio": "$2,200,00",
+            "imagen": "funebres/005.jpg"
+        },{
+            "titulo": "Fúnebre 06",
+            "precio": "$1,600,00",
+            "imagen": "funebres/006.jpg"
+        },{
+            "titulo": "Fúnebre 07",
+            "precio": "$",
+            "imagen": "funebres/007.jpg"
+        },{
+            "titulo": "Fúnebre 08",
+            "precio": "$1,200,00",
+            "imagen": "funebres/008.jpg"
+        },{
+            "titulo": "Fúnebre 09",
+            "precio": "$1,000,00",
+            "imagen": "funebres/009.jpg"
+        },{
+            "titulo": "Fúnebre 10",
+            "precio": "$1,000,00",
+            "imagen": "funebres/010.jpg"
+        }]
+    },{
         "nombre": "Arreglos Navideños",
         "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
         "lista": [{
@@ -47,25 +543,153 @@
             "precio": "$500,00",
             "imagen": "navidenos/011.jpg"
         }]
-    }, {
-        "nombre": "Arreglos Frutales",
+    },{
+        "nombre": "Ramos para Novia",
         "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
         "lista": [{
-            "titulo": "Frutales 01",
+            "titulo": "Ramos 01",
             "precio": "$1,000,00",
-            "imagen": "frutales/001.jpg"
+            "imagen": "ramos/001.jpg"
         },{
-            "titulo": "Frutales 02",
-            "precio": "$1,200,00",
-            "imagen": "frutales/002.jpg"
-        },{
-            "titulo": "Frutales 03",
-            "precio": "$1,200,00",
-            "imagen": "frutales/003.jpg"
-        },{
-            "titulo": "Frutales 04",
+            "titulo": "Ramos 02",
             "precio": "$1,500,00",
-            "imagen": "frutales/004.jpg"
+            "imagen": "ramos/002.jpg"
+        },{
+            "titulo": "Ramos 03",
+            "precio": "$2,000,00",
+            "imagen": "ramos/003.jpg"
+        },{
+            "titulo": "Ramos 04",
+            "precio": "$1,000,00",
+            "imagen": "ramos/004.jpg"
+        },{
+            "titulo": "Ramos 05",
+            "precio": "$1,000,00",
+            "imagen": "ramos/005.jpg"
+        },{
+            "titulo": "Ramos 06",
+            "precio": "$300,00",
+            "imagen": "ramos/006.jpg"
+        },{
+            "titulo": "Ramos 07",
+            "precio": "$700,00",
+            "imagen": "ramos/007.jpg"
+        },{
+            "titulo": "Ramos 08",
+            "precio": "$800,00",
+            "imagen": "ramos/008.jpg"
+        },{
+            "titulo": "Ramos 09",
+            "precio": "$700,00",
+            "imagen": "ramos/009.jpg"
+        },{
+            "titulo": "Ramos 10",
+            "precio": "$800,00",
+            "imagen": "ramos/010.jpg"
+        },{
+            "titulo": "Ramos 11",
+            "precio": "$1,200,00",
+            "imagen": "ramos/011.jpg"
+        },{
+            "titulo": "Ramos 12",
+            "precio": "$1,000,00",
+            "imagen": "ramos/012.jpg"
+        },{
+            "titulo": "Ramos 13",
+            "precio": "$2,000,00",
+            "imagen": "ramos/013.jpg"
+        },{
+            "titulo": "Ramos 14",
+            "precio": "$700,00",
+            "imagen": "ramos/014.jpg"
+        },{
+            "titulo": "Ramos 15",
+            "precio": "$1,200,00",
+            "imagen": "ramos/015.jpg"
+        },{
+            "titulo": "Ramos 16",
+            "precio": "$1,800,00",
+            "imagen": "ramos/016.jpg"
+        },{
+            "titulo": "Ramos 17",
+            "precio": "$1,600,00",
+            "imagen": "ramos/017.jpg"
+        },{
+            "titulo": "Ramos 18",
+            "precio": "$1,400,00",
+            "imagen": "ramos/018.jpg"
+        },{
+            "titulo": "Ramos 19",
+            "precio": "$1,200,00",
+            "imagen": "ramos/019.jpg"
+        },{
+            "titulo": "Ramos 20",
+            "precio": "$700,00",
+            "imagen": "ramos/020.jpg"
+        },{
+            "titulo": "Ramos 21",
+            "precio": "$1,200,00",
+            "imagen": "ramos/021.jpg"
+        },{
+            "titulo": "Ramos 22",
+            "precio": "$1,600,00",
+            "imagen": "ramos/022.jpg"
+        },{
+            "titulo": "Ramos 23",
+            "precio": "$1,500,00",
+            "imagen": "ramos/023.jpg"
+        },{
+            "titulo": "Ramos 24",
+            "precio": "$700,00",
+            "imagen": "ramos/024.jpg"
+        },{
+            "titulo": "Ramos 25",
+            "precio": "$300,00",
+            "imagen": "ramos/025.jpg"
+        },{
+            "titulo": "Ramos 26",
+            "precio": "$1,200,00",
+            "imagen": "ramos/026.jpg"
+        },{
+            "titulo": "Ramos 27",
+            "precio": "$1,200,00",
+            "imagen": "ramos/027.jpg"
+        },{
+            "titulo": "Ramos 28",
+            "precio": "$800,00",
+            "imagen": "ramos/028.jpg"
+        },{
+            "titulo": "Ramos 29",
+            "precio": "$1,000,00",
+            "imagen": "ramos/029.jpg"
+        },{
+            "titulo": "Ramos 30",
+            "precio": "$500,00",
+            "imagen": "ramos/030.jpg"
+        }]
+    }, {
+        "nombre": "Arreglos para Bebes",
+        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+        "lista": [{
+            "titulo": "bebes 01",
+            "precio": "$1,000,00",
+            "imagen": "bebes/001.jpg"
+        },{
+            "titulo": "bebes 02",
+            "precio": "$800,00",
+            "imagen": "bebes/002.jpg"
+        },{
+            "titulo": "bebes 03",
+            "precio": "$1,000,00",
+            "imagen": "bebes/003.jpg"
+        },{
+            "titulo": "bebes 04",
+            "precio": "$1,500,00",
+            "imagen": "bebes/004.jpg"
+        },{
+            "titulo": "bebes 05",
+            "precio": "$1,600,00",
+            "imagen": "bebes/005.png"
         }]
     }]
 }

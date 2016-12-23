@@ -38,6 +38,7 @@
     <script src="{{ URL::asset('lib/layerslider/js/layerslider.transitions.js') }}" type="text/javascript"></script>
     <script src="{{ URL::asset('lib/layerslider/js/layerslider.kreaturamedia.jquery.js') }}" type="text/javascript"></script>
     <script src="{{ URL::asset('lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5') }}"></script>
+    <script src="{{ URL::asset('js/main.js') }}"></script>
     <script type="text/javascript">
       // Running the code when the document is ready
       $(document).ready(function() {
