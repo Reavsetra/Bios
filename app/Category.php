@@ -1,0 +1,11 @@
+<?php
+
+namespace biosfera;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    //
+    protected $table = 'categorias';
+}
