@@ -1,0 +1,516 @@
+//Variables
+$ThemeA: #91C72C;
+$ThemeB: #3C613D;
+$ThemeC: #F9FDFC;
+$ThemeD: #3767A6;
+$ThemeE: #5783D0;
+$ThemeF: #5E037A;
+// $ThemeF: #5C0E7A;
+$ThemeG: #942712;
+// Fuentes Web
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+// Estilos Generales
+html,
+body {
+    height: 80%;
+    width: 100%;
+    background-color: darken(white, 10%);
+    color: lighten(black, 40%);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+* {
+    font-family: 'Kreon', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: $ThemeF;
+    padding: 5px;
+    border-bottom: solid 5px $ThemeF;
+    font-family: 'Courgette', serif;
+    &.sf-seo {
+        font-size: 1em;
+        font-weight: normal;
+        margin-top: -25px;
+        font-style: italic;
+        border-bottom: none;
+        color: lighten(black, 50%)
+    }
+}
+
+nav {
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid transparent;
+    background: transparentize($ThemeA, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    font-size: 1.1rem;
+    transition: 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 1100;
+    justify-content: space-around;
+    .nav-full {
+        position: relative;
+        top: 30px;
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style: none;
+                a {
+                    i {
+                        color: white;
+                    }
+                    &.principal {
+                        text-decoration: none;
+                        color: $white;
+                        font-weight: bold;
+                        padding: 15px;
+                        transition: 500ms;
+                        position: relative;
+                        top: 0px;
+                        padding-top: 35px;
+                        overflow: hidden;
+                        &:hover {
+                            color: $ThemeD;
+                            background: linear-gradient(to bottom, lighten($ThemeF, 10%) 0%, darken($ThemeF, 10%) 100%);
+                            background-color: $ThemeF;
+                            color: $ThemeC;
+                            &::before {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    &.arreglos {
+                        &:hover {
+                            &+.sub-nav {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sub-nav {
+        transition: all 500ms;
+        z-index: 900;
+        position: fixed;
+        width: 100%;
+        &:hover {
+            visibility: visible;
+            opacity: 1;
+            &+.arreglos {
+                border-right: solid 2px lig($ThemeF, 10%);
+                border-left: solid 2px darken($ThemeF, 10%);
+            }
+        }
+        ul {
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            li {
+                transition: 500ms;
+                margin: 5px;
+                &:hover {
+                    background: transparentize($ThemeE, 0.3);
+                    transform: scale(1.1, 1.2);
+                    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+                }
+                a {
+                    display: block;
+                    text-align: center;
+                    color: $white;
+                    font-weight: bold;
+                    transition: all 500ms;
+                    &:hover {
+                        color: $ThemeC;
+                        &::before {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    padding: 25px;
+}
+
+.intro {
+    text-align: justify;
+}
+
+#logo-img {
+    width: 150px;
+    height: auto;
+}
+
+#principal-slider {
+    width: 100%;
+    height: 600px;
+    .info {
+        p {
+            font-size: 1em;
+            white-space: normal !important;
+            color: lighten(black, 10%);
+            text-align: center;
+            word-wrap: break-word;
+        }
+    }
+    .urgentes {
+        background-color: $ThemeF;
+        background: linear-gradient(to bottom, lighten($ThemeF, 10%) 0%, darken($ThemeF, 10%) 100%);
+        padding: 15px !important;
+        border-radius: 15px !important;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.40);
+        p {
+            font-size: 1.1em !important;
+            color: white;
+            text-align: center;
+        }
+    }
+    .pay-text {
+        font-size: 1.2em !important;
+        color: black;
+    }
+    .pay-title {
+        background-color: $ThemeE;
+        width: 80%;
+        border: none;
+        color: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19);
+        text-shadow: 0 0px 1px rgba(0, 0, 0, 0.23);
+    }
+    .sl2 {
+        &-title {
+            background-color: $ThemeE;
+            color: white;
+            width: 80% !important;
+            font-size: 1.6rem !important;
+            padding: 20px !important;
+            border-radius: 5px !important;
+            box-shadow: 0px 3px 5px transparentize(black, 0.5);
+        }
+    }
+}
+
+#map {
+    height: 550px;
+}
+
+.info-contact {
+    padding: 25px;
+    .columns {
+        padding: 15px;
+        border-radius: 5px;
+        background-color: lighten(black, 80%);
+        text-align: center;
+    }
+    .contact-info {
+        margin-bottom: 10px;
+        color: white;
+        width: 100%;
+        font-size: 1.2em;
+        border-bottom: none;
+    }
+}
+
+.container {
+    border-radius: 10px;
+    &-white {
+        @extend .container;
+        padding: 30px;
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+        background-color: transparentize(white, 0.20);
+        height: 250px;
+        p {
+            color: black;
+            font-size: 1.4em;
+        }
+    }
+    &-principal {
+        @extend .container;
+        position: relative;
+        padding-top: 100px;
+    }
+}
+
+.services {
+    article {
+        margin-bottom: 100px;
+        p {
+            font-size: 1.2em;
+            text-align: justify;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                min-width: 200px;
+                margin: 10px;
+                font-size: 1.2em;
+            }
+        }
+        img {
+            border: solid 8px white;
+            width: 90%;
+            margin: auto;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+            transition: all 1s;
+            &.a {
+                transform: rotate(10deg);
+                &:hover {
+                    width: 85%;
+                    transform: rotate(-10deg);
+                }
+            }
+            &.b {
+                transform: rotate(-10deg);
+                &:hover {
+                    width: 85%;
+                    transform: rotate(10deg);
+                }
+            }
+        }
+        a {
+            width: 70% !important;
+            margin: auto !important;
+        }
+    }
+}
+
+.arreglos {
+    &.more-send {
+        .price {
+            &:after {
+                content: "Más Envío";
+                float: left;
+                width: 100%;
+                position: relative;
+                text-align: center !important;
+                top: 10px;
+                color: $ThemeD !important;
+            }
+        }
+    }
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .item {
+            margin: 20px;
+            width: 250px;
+            color: white;
+            //background-color: darken(white, 10%);
+            .thumbnail {
+                display: block;
+                margin: auto;
+                width: 250px;
+                height: 250px;
+                border: solid 7px darken(white, 5%);
+                background-color: lighten(black, 30%);
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+                overflow: hidden;
+                transition: transform 500ms;
+                &:hover {
+                    transform: scale(1.1) rotate(5deg);
+                    .pic {
+                        transform: scale(1.3);
+                    }
+                }
+                .pic {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    transition: transform 500ms;
+                }
+            }
+            h3 {
+                font-size: 1.4em;
+                width: 100%;
+                margin: 10px 0px;
+            }
+            .price {
+                margin: auto;
+                margin-top: 15px;
+                width: 100px;
+                padding: 8px;
+                border-radius: 8px;
+                background-color: $ThemeE;
+                box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+                p {
+                    font-size: 1.2rem;
+                    color: white;
+                    margin: 0px;
+                    font-weight: bold;
+                    text-align: center !important;
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}
+
+#parall {
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    &-services {
+        @extend #parall;
+        background-image: url(../img/parallax/services.jpg);
+    }
+    &-obsequio {
+        @extend #parall;
+        background-image: url(../img/parallax/obsequio.jpg);
+    }
+    &-festivos {
+        @extend #parall;
+        background-image: url(../img/parallax/dias_festivos.jpg);
+    }
+    &-orquideas {
+        @extend #parall;
+        background-image: url(../img/parallax/orquideas.jpg);
+    }
+    &-eventos {
+        @extend #parall;
+        background-image: url(../img/parallax/eventos.jpg);
+    }
+    &-empresariales {
+        @extend #parall;
+        background-image: url(../img/parallax/empresariales.jpg);
+    }
+    &-frutales {
+        @extend #parall;
+        background-image: url(../img/parallax/frutales.jpg);
+    }
+    &-funebres {
+        @extend #parall;
+        background-image: url(../img/parallax/funebres.jpg);
+    }
+    &-navidad {
+        @extend #parall;
+        background-image: url(../img/parallax/navidad.jpg);
+    }
+    &-ramos {
+        @extend #parall;
+        background-image: url(../img/parallax/ramos.jpg);
+    }
+    &-bebes {
+        @extend #parall;
+        background-image: url(../img/parallax/bebes.jpg);
+    }
+}
+
+// Píe de Página
+footer {
+    min-height: 100px;
+    padding: 30px;
+    background: lighten(black, 20%);
+    color: white;
+    address {
+        a {
+            display: block;
+            margin: 10px auto;
+            color: $ThemeA;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 500ms;
+            &:hover {
+                padding: 5px 15px;
+                color: $ThemeA;
+                border-left: solid $ThemeA 5px;
+            }
+        }
+        &.phone {
+            display: block;
+            text-align: right;
+        }
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            margin: auto 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            border: solid 3px $ThemeA;
+            transition: all 500ms;
+            &.redes {
+                font-size: 0.8em;
+                color: $ThemeA;
+                background-color: transparent;
+                padding: 12px 0px 0px 17px;
+                i {
+                    color: $ThemeA;
+                }
+                &:nth-child(2) {
+                    padding: 12px 0px 0px 14px;
+                }
+            }
+            &:hover {
+                border: solid 3px lighten(black, 10%);
+                &.redes {
+                    background-color: $ThemeA;
+                    i {
+                        color: lighten(black, 10%);
+                    }
+                    padding: 12px 0px 0px 17px;
+                    &:nth-child(2) {
+                        padding: 12px 0px 0px 14px;
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        p {
+            font-size: 0.8em;
+            text-align: center;
+        }
+        a {
+            color: $ThemeA;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 500ms;
+            padding: 10px 0;
+            position: relative;
+            top: 0px;
+            &:hover {
+                position: relative;
+                top: -5px;
+                font-size: 1.3em;
+                padding: 15px;
+            }
+        }
+    }
+}

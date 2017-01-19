@@ -12,7 +12,7 @@
                 <?php
                     $json = file_get_contents('http://www.floreriabiosfera.com/js/data.json');
                     $json_output = json_decode($json);
-                    $arreglo = $json_output->arreglos[1];
+                    $arreglo = $json_output->arreglos[6];
                     $arrList = $arreglo->lista;
                     echo '
                         <article>

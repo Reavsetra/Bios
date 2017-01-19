@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="{{ URL::asset('lib/font-awesome-4.6.3/css/font-awesome.min.css') }}">
     <link rel="icon" type="image/png" href="/img/favicon.png" />
     <!-- LayerSlider stylesheet -->
-    <link rel="stylesheet" href="{{ URL::asset('lib/layerslider/css/layerslider.cs') }}s" type="text/css">
+    <link rel="stylesheet" href="{{ URL::asset('lib/layerslider/css/layerslider.css') }}" type="text/css">
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="{{ URL::asset('lib/fancybox/source/jquery.fancybox.css?v=2.1.5') }}" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
-
-   
 </head>
 
 <body>
