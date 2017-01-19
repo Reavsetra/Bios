@@ -35,9 +35,10 @@
                     </div>
                     <div class="columns medium-12 large-4">
                         <div class="row info-contact">
-                            <div class="columns">
-                                <h4 class="contact-info">Pedidos Vía WhatsApp:</h4><br>
-                                <i class="fa fa-whatsapp" aria-hidden="true"></i>  (044)(55)2708-6600
+                            <div class="columns whats-app">
+                                <h4 class="contact-info">Pedidos Vía:</h4>
+                                <img src="{{ URL::asset('img/whats.png') }}">
+                                (55) 2708-6600
                             </div>
                         </div>
                     </div>

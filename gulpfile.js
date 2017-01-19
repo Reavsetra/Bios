@@ -15,6 +15,6 @@ require('laravel-elixir-vue-2');
 
 elixir((mix) => {
     mix.sass('app.scss').browserSync({
-        proxy: 'http://localhost:8888/bio/Bios/public'
+        proxy: 'http://localhost/Bios/public/'
     });
 });

@@ -4931,9 +4931,28 @@ main {
 
 .info-contact .columns {
   padding: 15px;
+  min-height: 130px;
   border-radius: 5px;
   background-color: #cccccc;
   text-align: center;
+}
+
+.info-contact .columns.whats-app {
+  background-color: #91C72C;
+  color: white;
+  font-size: 1.4em;
+}
+
+.info-contact .columns.whats-app h4 {
+  margin: 0px;
+  display: inline;
+  font-size: 1em;
+}
+
+.info-contact .columns.whats-app img {
+  display: inline-block;
+  width: 50%;
+  margin: 0px auto;
 }
 
 .info-contact .contact-info {

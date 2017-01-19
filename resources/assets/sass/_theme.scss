@@ -230,9 +230,26 @@ main {
     padding: 25px;
     .columns {
         padding: 15px;
+        min-height: 130px;
         border-radius: 5px;
         background-color: lighten(black, 80%);
         text-align: center;
+        &.whats-app{
+            background-color: $ThemeA;
+            h4{
+                margin: 0px;
+                display: inline;
+                font-size: 1em;
+            }
+            img{
+                display: inline-block;
+                width: 50%;
+                margin: 0px auto;
+            }
+                color: white;
+                font-size: 1.4em;
+            
+        }
     }
     .contact-info {
         margin-bottom: 10px;
